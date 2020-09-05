@@ -2,6 +2,6 @@
   "name": "BotTwitter",
   "version": "1.0.0",
   "dependencies": {
-    "twit": "latest"
+    "twit": "^2.2.11"
   }
 }

@@ -33,6 +33,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Thomas Grossmann\Documents\GitHub\BotTwitter\BotTwitter" />
       <recent name="C:\Users\Thomas Grossmann\Documents\GitHub\BotTwitter\BotTwitter\model" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -50,6 +51,16 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/index.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.index.js" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
