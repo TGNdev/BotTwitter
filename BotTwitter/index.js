@@ -9,7 +9,8 @@ var Twitter = new twit(config);
 var listMessages = require('./messages.js');
 
 //control the messages that got twitted
-var messageLocation = Math.floor(Math.random() * 8);        //randomize the message that get send
+var messageLocation = Math.floor(Math.random() * listMessages.messages.count());
+var messageNumber = 1;
 
 //contols the time when the tweets are send
 const minuteOfTheHour = 0;      //we want to post every hour at **:00 (ex : 21:00)
@@ -19,7 +20,7 @@ setInterval(timeCheck,1000*55);     //checks the time every 55 seconds
 //post the message on Twitter
 var writeTweet = function() {
     Twitter.post('statuses/update', {
-        status: "Reminder !" + "\n🌬️ " + listMessages.messages[messageLocation] + " 🌬️"     //status is actually the message
+        status: "Reminder No"+messageNumber+ " !" + "\n🌬️ " + listMessages.messages[messageLocation] + " 🌬️"
     }, function(err, data, response) {
         console.log(data)
     });
